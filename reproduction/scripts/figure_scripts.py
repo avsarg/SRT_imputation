@@ -6,13 +6,6 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-# from pathlib import Path
-
-
-# # define the path for figures
-# fig_path = './figures/'
-# fpath = Path(fig_path)
-# fpath.mkdir(parents=True, exist_ok=True)
 
 def getGenes():
     df = pd.read_csv("genes_for_imputation.txt", sep='\t')
