@@ -6,12 +6,6 @@ Created on Mon Mar  7 12:05:44 2022
 """
 import pandas as pd
 from scripts import evals as evl
-# from pathlib import Path
-
-# eval_path = './Codes_Imputation_Manuscript/evaluations/'
-# epath = Path(eval_path)
-# epath.mkdir(parents=True, exist_ok=True)
-
 
 def getGenes():
     df = pd.read_csv("genes_for_imputation.txt", sep='\t')
