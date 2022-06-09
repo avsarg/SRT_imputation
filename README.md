@@ -2,7 +2,7 @@
 # SRT_imputation
 
 SRT_imputation offers the codes to reproduce the results of the publication. Also the gene-wise and spot(or cell)-wise evaluations which were done in the paper can be carried out for the users` own datasets.
-
+(Publication will be cited here when it is public.)
 
 ## For running the reproduction
 
@@ -14,13 +14,13 @@ runQQ()	#this step will take a while (~14 mins)
 
 ```
 
-## For running the test and own datasets
+## For running the test and costom datasets
 **Input**
 -	org_data: preprocessed (optionally) dataset in the dataframe structure (genes are at the columns)
 -	imp_data: preprocessed (optionally) dataset in the dataframe structure (genes are at the columns)
 -	g:  list of genes to use in evaluations
--	dName: name for dataset (str)
--	mName (optional): name for method (str)
+-	dName: name for dataset (str) (results will be saved with this prefix)
+-	mName (optional): name for method (str) (results will be saved with this prefix)
 -	pl_g (optional): the selected (at most 4) genes to plot (list)
 
 **Output**
@@ -34,7 +34,7 @@ org_df, imp_df, g = qq.test()
 dName = 'myTest'
 qq.QQevaluation(org_df, imp_df, g, dName, mName=None, pl_g =None)
 ```
-## For running the evaluations for own datasets
+## For running the evaluations for costom datasets
 ```bash
 import QQevaluation as qq
 qq.QQevaluation(org_data, imp_data, g, dName, mName=None, pl_g=None)
