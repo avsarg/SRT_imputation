@@ -10,7 +10,7 @@ work in the ‘reproduction’ folder
 ```bash
 from run_reprod import runQQ
 
-runQQ()	#this step will take a while (~14 mins)
+runQQ()	#this step will take a while (~14 min - can be change wrt computer power)
 
 ```
 
