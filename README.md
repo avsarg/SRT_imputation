@@ -4,7 +4,7 @@
 SRT_imputation offers the codes to reproduce the results of the publication. Also the gene-wise and spot(or cell)-wise evaluations which were done in the paper can be carried out for the users` own datasets.
 (Publication will be cited here when it is public.)
 
-## For running the reproduction
+## For running the reproduction (for whole processes)
 
 work in the ‘reproduction’ folder
 ```bash
