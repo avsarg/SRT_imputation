@@ -4,6 +4,7 @@
 SRT_imputation offers the codes to reproduce the results of the publication. Also the gene-wise and spot(or cell)-wise evaluations which were done in the paper can be carried out for the users` own datasets.
 
 Avşar, G. and Pir, P., 2023. A comparative performance evaluation of imputation methods in spatially resolved transcriptomics data. Molecular Omics, 19, 162-173
+DOI:https://doi.org/10.1039/D2MO00266C
 
 
 ## For running the reproduction (for whole processes)
